@@ -25,11 +25,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const difference = targetDate - now;
 
         if (difference <= 0) {
-            // Event has started!
-            if (daysEl) daysEl.innerText = "00";
-            if (hoursEl) hoursEl.innerText = "00";
-            if (minutesEl) minutesEl.innerText = "00";
-            if (secondsEl) secondsEl.innerText = "00";
+            // Event has passed! Count UPWARDS to show duration of engagement
+            const timeElapsed = now - targetDate;
+
+            // Dynamically update the countdown header
+            const countdownTitle = document.querySelector('#countdown-section h2');
+            if (countdownTitle && countdownTitle.innerText !== "Happily Engaged For") {
+                countdownTitle.innerText = "Happily Engaged For";
+            }
+
+            const days = Math.floor(timeElapsed / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeElapsed % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeElapsed % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeElapsed % (1000 * 60)) / 1000);
+
+            if (daysEl) daysEl.innerText = String(days).padStart(2, '0');
+            if (hoursEl) hoursEl.innerText = String(hours).padStart(2, '0');
+            if (minutesEl) minutesEl.innerText = String(minutes).padStart(2, '0');
+            if (secondsEl) secondsEl.innerText = String(seconds).padStart(2, '0');
             return;
         }
 
