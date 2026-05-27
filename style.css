@@ -847,6 +847,58 @@ section {
     transform: translateY(-2px);
 }
 
+/* Travel Info Styling */
+.travel-info {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.travel-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(12, 2, 3, 0.3);
+    border: 1px solid rgba(212, 175, 55, 0.15);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.travel-item:hover {
+    border-color: rgba(212, 175, 55, 0.35);
+    box-shadow: 0 0 8px rgba(212, 175, 55, 0.15);
+    transform: translateY(-1px);
+}
+
+.travel-icon {
+    color: var(--turmeric-yellow);
+    flex-shrink: 0;
+}
+
+.travel-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.travel-label {
+    font-size: 0.75rem;
+    color: #dfcfbc;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.travel-value {
+    font-size: 0.95rem;
+    color: var(--ivory-white);
+    font-weight: 500;
+    margin-top: 2px;
+}
+
 .contact-family-container {
     margin-top: 2rem;
     padding-top: 2rem;
