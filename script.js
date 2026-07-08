@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const RSVP_API_URL = "https://script.google.com/macros/s/AKfycbzCg3JD_mdRF9EqjqbeOH1K1__1E1PxhYwN4JYCRxKQr92_mCkZ8EaaQONdYP5-SvNV/exec";
 
     // --- 1. Countdown Timer (Subhamuhurtham) ---
-    // Target Date: June 21, 2026, 11:30:00 AM (Auspicious Sumuhurtham)
-    const targetDate = new Date('June 21, 2026 11:30:00').getTime();
+    // Target Date: August 28, 2026, 11:30:00 PM (Auspicious Sumuhurtham)
+    const targetDate = new Date('August 28, 2026 11:30:00').getTime();
 
     const daysEl = document.getElementById('days');
     const hoursEl = document.getElementById('hours');
@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Dynamically update the countdown header
             const countdownTitle = document.querySelector('#countdown-section h2');
-            if (countdownTitle && countdownTitle.innerText !== "Happily Engaged For") {
-                countdownTitle.innerText = "Happily Engaged For";
+            if (countdownTitle && countdownTitle.innerText !== "Happily married For") {
+                countdownTitle.innerText = "Happily married For";
             }
 
             const days = Math.floor(timeElapsed / (1000 * 60 * 60 * 24));
