@@ -67,12 +67,12 @@ body {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #221726;
+    background: #FFF6F0;
 }
 ::-webkit-scrollbar-thumb {
     background: var(--kumkum-red);
     border-radius: 4px;
-    border: 2px solid #0c0203;
+    border: 2px solid #FFF6F0;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: var(--temple-gold);
@@ -227,7 +227,7 @@ section {
    1. Welcome Section & Ganesha Intro
    ========================================================================== */
 #welcome-section {
-    background-color: rgba(12, 2, 3, 0.65);
+    background-color: rgba(255, 246, 240, 0.75);
     text-align: center;
 }
 
@@ -297,7 +297,7 @@ section {
    2. Hero Section: The Announcement
    ========================================================================== */
 #hero-section {
-    background-color: rgba(12, 2, 3, 0.3);
+    background-color: rgba(255, 246, 240, 0.45);
     text-align: center;
 }
 
