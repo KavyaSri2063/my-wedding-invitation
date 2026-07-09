@@ -260,7 +260,7 @@ section {
 .prayer-translation {
     font-family: var(--font-body);
     font-size: 0.95rem;
-    color: #dfcfbc;
+    color: #6B5876;
     max-width: 600px;
     margin: 1rem auto;
     line-height: 1.8;
@@ -342,7 +342,7 @@ section {
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #dfcfbc;
+    color: #6B5876;
     font-weight: 500;
 }
 
@@ -350,7 +350,11 @@ section {
     max-width: 900px;
     margin: 0 auto;
     border: 2px solid rgba(212, 175, 55, 0.4);
-    box-shadow: var(--soft-shadow), 0 0 30px rgba(88, 16, 21, 0.4);
+    box-shadow: var(--soft-shadow), 0 0 30px rgba(88, 16, 21, 0.4);.invitation-card {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid rgba(212, 175, 55, 0.4);
+    box-shadow: var(--soft-shadow), 0 0 30px rgba(196, 168, 207, 0.4);
 }
 
 .invitation-badge {
@@ -457,7 +461,7 @@ section {
 }
 
 .countdown-box {
-    background: rgba(12, 2, 3, 0.5);
+    background: rgba(255, 255, 255, 0.6);
     border: 1px solid rgba(212, 175, 55, 0.3);
     border-radius: var(--border-radius);
     padding: 1.5rem;
@@ -487,7 +491,7 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #dfcfbc;
+    color: #6B5876;
 }
 
 /* ==========================================================================
@@ -587,13 +591,13 @@ section {
 
 .family-relation {
     font-size: 0.8rem;
-    color: #dfcfbc;
+    color: #6B5876;
     font-style: italic;
 }
 
 .couple-bio {
     font-size: 0.9rem;
-    color: #dfcfbc;
+    color: #6B5876;
     text-align: center;
     line-height: 1.7;
     margin-top: 1rem;
@@ -604,7 +608,8 @@ section {
    5. Event Timeline & Muhurtham
    ========================================================================== */
 #timeline-section {
-    background-color: rgba(12, 2, 3, 0.4);
+    background-color: rgba(12, 2, 3, 0.4);#timeline-section {
+    background-color: rgba(255, 246, 240, 0.55);
 }
 
 .timeline-container {
@@ -651,7 +656,7 @@ section {
     height: 16px;
     border-radius: 50%;
     background: var(--turmeric-yellow);
-    border: 3px solid #0c0203;
+    border: 3px solid #FFF6F0;
     right: -8px;
     top: 25px;
     z-index: 5;
@@ -664,7 +669,7 @@ section {
 }
 
 .timeline-event-card {
-    background: rgba(88, 16, 21, 0.35);
+    background: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(212, 175, 55, 0.2);
     border-radius: var(--border-radius);
     padding: 2rem;
@@ -700,13 +705,13 @@ section {
 
 .timeline-desc {
     font-size: 0.85rem;
-    color: #dfcfbc;
+    color: #6B5876;
     line-height: 1.6;
 }
 
 /* Muhurtham Golden Highlight */
 .muhurtham-callout {
-    background: linear-gradient(135deg, rgba(88, 16, 21, 0.7) 0%, rgba(212, 175, 55, 0.15) 100%);
+    background: linear-gradient(135deg, rgba(196, 168, 207, 0.4) 0%, rgba(244, 169, 135, 0.25) 100%);
     border: 2px solid var(--temple-gold);
     border-radius: var(--border-radius);
     padding: 2.5rem;
@@ -761,7 +766,7 @@ section {
 
 .panchangam-label {
     font-size: 0.75rem;
-    color: #dfcfbc;
+    color: #6B5876;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0.25rem;
@@ -887,7 +892,7 @@ section {
 
 .travel-label {
     font-size: 0.75rem;
-    color: #dfcfbc;
+    color: #6B5876;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -1047,7 +1052,7 @@ select.form-input {
     text-align: center;
     font-weight: 600;
     font-size: 0.95rem;
-    color: #dfcfbc;
+    color: #6B5876;
     transition: all 0.3s ease;
     text-transform: uppercase;
     letter-spacing: 1px;
