@@ -128,7 +128,7 @@ section {
 
 /* Glassmorphism Card Base */
 .glass-card {
-    background: rgba(124, 90, 156, 0.3); /* Lavender translucent tint */
+    background: rgba(88, 16, 21, 0.45); /* Kumkum Red translucent tint */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: var(--glass-border);
