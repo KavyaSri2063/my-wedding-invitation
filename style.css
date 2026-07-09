@@ -71,7 +71,7 @@ body {
 ::-webkit-scrollbar-thumb {
     background: var(--kumkum-red);
     border-radius: 4px;
-    border: 2px solid #FFF6F0;
+    border: 2px solid #0c0203;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: var(--temple-gold);
@@ -127,7 +127,7 @@ section {
 
 /* Glassmorphism Card Base */
 .glass-card {
-    background: rgba(124, 90, 156, 0.3); /* Lavender translucent tint */
+    background: rgba(88, 16, 21, 0.45); /* Kumkum Red translucent tint */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: var(--glass-border);
@@ -226,7 +226,7 @@ section {
    1. Welcome Section & Ganesha Intro
    ========================================================================== */
 #welcome-section {
-    background-color: rgba(255, 246, 240, 0.75);
+    background-color: rgba(12, 2, 3, 0.65);
     text-align: center;
 }
 
@@ -259,7 +259,7 @@ section {
 .prayer-translation {
     font-family: var(--font-body);
     font-size: 0.95rem;
-    color: #6B5876;
+    color: #dfcfbc;
     max-width: 600px;
     margin: 1rem auto;
     line-height: 1.8;
@@ -296,7 +296,7 @@ section {
    2. Hero Section: The Announcement
    ========================================================================== */
 #hero-section {
-    background-color: rgba(255, 246, 240, 0.45);
+    background-color: rgba(12, 2, 3, 0.3);
     text-align: center;
 }
 
@@ -341,7 +341,7 @@ section {
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #6B5876;
+    color: #dfcfbc;
     font-weight: 500;
 }
 
@@ -349,11 +349,7 @@ section {
     max-width: 900px;
     margin: 0 auto;
     border: 2px solid rgba(212, 175, 55, 0.4);
-    box-shadow: var(--soft-shadow), 0 0 30px rgba(88, 16, 21, 0.4);.invitation-card {
-    max-width: 900px;
-    margin: 0 auto;
-    border: 2px solid rgba(212, 175, 55, 0.4);
-    box-shadow: var(--soft-shadow), 0 0 30px rgba(196, 168, 207, 0.4);
+    box-shadow: var(--soft-shadow), 0 0 30px rgba(88, 16, 21, 0.4);
 }
 
 .invitation-badge {
@@ -398,8 +394,8 @@ section {
 }
 
 .couple-name.groom {
-    color: #C77B4F;
-    text-shadow: 0 0 10px rgba(217, 180, 143, 0.3)
+    color: #FFE082;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
 }
 
 .couple-name .salutation {
@@ -460,7 +456,7 @@ section {
 }
 
 .countdown-box {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(12, 2, 3, 0.5);
     border: 1px solid rgba(212, 175, 55, 0.3);
     border-radius: var(--border-radius);
     padding: 1.5rem;
@@ -490,7 +486,7 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #6B5876;
+    color: #dfcfbc;
 }
 
 /* ==========================================================================
@@ -590,13 +586,13 @@ section {
 
 .family-relation {
     font-size: 0.8rem;
-    color: #6B5876;
+    color: #dfcfbc;
     font-style: italic;
 }
 
 .couple-bio {
     font-size: 0.9rem;
-    color: #6B5876;
+    color: #dfcfbc;
     text-align: center;
     line-height: 1.7;
     margin-top: 1rem;
@@ -607,7 +603,7 @@ section {
    5. Event Timeline & Muhurtham
    ========================================================================== */
 #timeline-section {
-    background-color: rgba(255, 246, 240, 0.55);
+    background-color: rgba(12, 2, 3, 0.4);
 }
 
 .timeline-container {
@@ -654,7 +650,7 @@ section {
     height: 16px;
     border-radius: 50%;
     background: var(--turmeric-yellow);
-    border: 3px solid #FFF6F0;
+    border: 3px solid #0c0203;
     right: -8px;
     top: 25px;
     z-index: 5;
@@ -667,7 +663,7 @@ section {
 }
 
 .timeline-event-card {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(88, 16, 21, 0.35);
     border: 1px solid rgba(212, 175, 55, 0.2);
     border-radius: var(--border-radius);
     padding: 2rem;
@@ -703,13 +699,13 @@ section {
 
 .timeline-desc {
     font-size: 0.85rem;
-    color: #6B5876;
+    color: #dfcfbc;
     line-height: 1.6;
 }
 
 /* Muhurtham Golden Highlight */
 .muhurtham-callout {
-    background: linear-gradient(135deg, rgba(196, 168, 207, 0.4) 0%, rgba(244, 169, 135, 0.25) 100%);
+    background: linear-gradient(135deg, rgba(88, 16, 21, 0.7) 0%, rgba(212, 175, 55, 0.15) 100%);
     border: 2px solid var(--temple-gold);
     border-radius: var(--border-radius);
     padding: 2.5rem;
@@ -764,7 +760,7 @@ section {
 
 .panchangam-label {
     font-size: 0.75rem;
-    color: #6B5876;
+    color: #dfcfbc;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0.25rem;
@@ -846,686 +842,4 @@ section {
 
 .btn-nav:hover {
     background: var(--gold-gradient);
-    color: var(--kumkum-red-dark);
-    box-shadow: var(--gold-glow);
-    transform: translateY(-2px);
-}
-
-/* Travel Info Styling */
-.travel-info {
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.travel-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    background: rgba(12, 2, 3, 0.3);
-    border: 1px solid rgba(212, 175, 55, 0.15);
-    border-radius: 8px;
-    padding: 0.75rem 1rem;
-    transition: all 0.3s ease;
-    text-decoration: none;
-}
-
-.travel-item:hover {
-    border-color: rgba(212, 175, 55, 0.35);
-    box-shadow: 0 0 8px rgba(212, 175, 55, 0.15);
-    transform: translateY(-1px);
-}
-
-.travel-icon {
-    color: var(--turmeric-yellow);
-    flex-shrink: 0;
-}
-
-.travel-details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.travel-label {
-    font-size: 0.75rem;
-    color: #6B5876;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-}
-
-.travel-value {
-    font-size: 0.95rem;
-    color: var(--ivory-white);
-    font-weight: 500;
-    margin-top: 2px;
-}
-
-.contact-family-container {
-    margin-top: 2rem;
-    padding-top: 2rem;
-    border-top: 1px dashed rgba(212, 175, 55, 0.25);
-}
-
-.contact-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-top: 1rem;
-}
-
-.contact-person {
-    background: rgba(12, 2, 3, 0.3);
-    border: 1px solid rgba(212, 175, 55, 0.15);
-    border-radius: 8px;
-    padding: 0.75rem 1rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-name {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--ivory-white);
-}
-
-.contact-phone {
-    font-size: 0.85rem;
-    color: var(--temple-gold-light);
-    text-decoration: none;
-    margin-top: 0.25rem;
-    font-weight: 500;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.contact-phone:hover {
-    text-decoration: underline;
-    color: var(--turmeric-yellow);
-}
-
-/* ==========================================================================
-   7. RSVP & Guestbook
-   ========================================================================== */
-#rsvp-section {
-    background-color: rgba(12, 2, 3, 0.6);
-}
-
-.rsvp-card {
-    max-width: 700px;
-    margin: 0 auto;
-    width: 100%;
-}
-
-.rsvp-form {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.form-group-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    position: relative;
-}
-
-.form-label {
-    font-family: var(--font-body);
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--temple-gold-light);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-
-.form-input {
-    background: rgba(12, 2, 3, 0.6);
-    border: 1px solid rgba(212, 175, 55, 0.3);
-    border-radius: 8px;
-    padding: 1rem;
-    color: var(--ivory-white);
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    outline: none;
-    transition: all 0.3s ease;
-}
-
-.form-input:focus {
-    border-color: var(--temple-gold);
-    box-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
-    background: rgba(12, 2, 3, 0.85);
-}
-
-textarea.form-input {
-    resize: vertical;
-    min-height: 100px;
-}
-
-/* Custom Styled Select */
-select.form-input {
-    appearance: none;
-    -webkit-appearance: none;
-    cursor: pointer;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23d4af37' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 1rem center;
-    padding-right: 2.5rem;
-}
-
-/* Custom Styled Radio/Checkbox for Guest Status */
-.attendance-options {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-}
-
-.attendance-option {
-    position: relative;
-    cursor: pointer;
-}
-
-.attendance-option input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0; width: 0;
-}
-
-.attendance-option-card {
-    background: rgba(12, 2, 3, 0.4);
-    border: 1px solid rgba(212, 175, 55, 0.25);
-    border-radius: 8px;
-    padding: 1rem;
-    text-align: center;
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: #6B5876;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.attendance-option:hover .attendance-option-card {
-    border-color: var(--temple-gold-light);
-    color: var(--ivory-white);
-}
-
-.attendance-option input:checked ~ .attendance-option-card {
-    background: rgba(212, 175, 55, 0.15);
-    border-color: var(--temple-gold);
-    color: var(--turmeric-yellow);
-    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
-}
-
-.btn-submit {
-    background: var(--gold-gradient);
-    border: none;
-    color: var(--kumkum-red-dark);
-    font-family: var(--font-body);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 1.2rem;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 1rem;
-    box-shadow: var(--soft-shadow);
-    transition: all 0.3s ease;
-    margin-top: 1rem;
-    outline: none;
-}
-
-.btn-submit:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--gold-glow-strong);
-    color: #000;
-}
-
-.form-success-message {
-    display: none;
-    text-align: center;
-    padding: 2rem 0;
-}
-
-.success-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto 1.5rem auto;
-    filter: drop-shadow(0 2px 10px rgba(212, 175, 55, 0.4));
-}
-
-.success-title {
-    font-family: var(--font-heading);
-    color: var(--temple-gold);
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.success-text {
-    font-family: var(--font-subheading);
-    font-style: italic;
-    color: var(--ivory-white);
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-/* ==========================================================================
-   Music Player Widget
-   ========================================================================== */
-.music-player-widget {
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    background: rgba(12, 2, 3, 0.85);
-    border: 1px solid rgba(212, 175, 55, 0.4);
-    padding: 0.6rem 0.6rem 0.6rem 1.2rem;
-    border-radius: 40px;
-    box-shadow: var(--soft-shadow), var(--gold-glow);
-    cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-}
-
-.music-player-widget:hover {
-    border-color: var(--temple-gold);
-    box-shadow: var(--soft-shadow), var(--gold-glow-strong);
-}
-
-.music-player-text {
-    font-family: var(--font-body);
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--temple-gold-light);
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-right: 1rem;
-    white-space: nowrap;
-    transition: opacity 0.3s ease;
-}
-
-.music-disc-container {
-    width: 44px;
-    height: 44px;
-    position: relative;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.music-disc {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #111 0%, #333 50%, #111 100%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--temple-gold);
-    box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
-}
-
-.music-disc-inner {
-    width: 14px;
-    height: 14px;
-    background: var(--temple-gold);
-    border-radius: 50%;
-    border: 2px solid #000;
-}
-
-.music-disc-icon {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    color: var(--kumkum-red-dark);
-    z-index: 2;
-    pointer-events: none;
-}
-
-/* Animations for active playing */
-.music-player-widget.playing .music-disc {
-    animation: rotateSlow 4s linear infinite;
-}
-
-.music-waveform {
-    display: flex;
-    align-items: flex-end;
-    gap: 3px;
-    height: 14px;
-    margin-right: 0.75rem;
-}
-
-.music-wave-bar {
-    width: 2px;
-    height: 4px;
-    background-color: var(--temple-gold);
-    border-radius: 1px;
-    transition: height 0.1s ease;
-}
-
-.music-player-widget.playing .music-wave-bar:nth-child(1) { animation: wavePulse 1.2s ease-in-out infinite alternate; }
-.music-player-widget.playing .music-wave-bar:nth-child(2) { animation: wavePulse 0.8s ease-in-out infinite alternate 0.2s; }
-.music-player-widget.playing .music-wave-bar:nth-child(3) { animation: wavePulse 1.0s ease-in-out infinite alternate 0.4s; }
-.music-player-widget.playing .music-wave-bar:nth-child(4) { animation: wavePulse 0.6s ease-in-out infinite alternate 0.1s; }
-
-/* ==========================================================================
-   Keyframes and Animations
-   ========================================================================== */
-@keyframes rotateSlow {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-@keyframes pulseGanesha {
-    0%, 100% {
-        transform: scale(1);
-        filter: drop-shadow(0 0 8px rgba(254, 184, 19, 0.3));
-    }
-    50% {
-        transform: scale(1.03);
-        filter: drop-shadow(0 0 16px rgba(254, 184, 19, 0.6));
-    }
-}
-
-@keyframes wavePulse {
-    from { height: 3px; }
-    to { height: 14px; }
-}
-
-/* Custom Scroll-Triggered Reveal classes */
-.reveal-element {
-    opacity: 0;
-    transform: translateY(40px);
-    transition: opacity 1s cubic-bezier(0.25, 1, 0.5, 1), transform 1s cubic-bezier(0.25, 1, 0.5, 1);
-}
-
-.reveal-element.active {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* --- Ring Exchange Animation --- */
-.ring-exchange-container {
-    width: 260px;
-    height: 130px;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
-}
-
-.ring-exchange-svg {
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-}
-
-.ring-band {
-    transform-box: fill-box;
-    transform-origin: center;
-    opacity: 0;
-}
-
-.ring-band-left {
-    animation: groomRingMove 7s cubic-bezier(0.25, 1, 0.5, 1) infinite;
-}
-
-.ring-band-right {
-    animation: brideRingMove 7s cubic-bezier(0.25, 1, 0.5, 1) infinite;
-}
-
-.ring-glow-pulse {
-    transform-origin: 100px 50px;
-    animation: ringGlowPulse 7s ease-in-out infinite;
-}
-
-.sparkles-burst {
-    transform-origin: 100px 50px;
-    animation: sparklesBurst 7s ease-in-out infinite;
-}
-
-@keyframes groomRingMove {
-    0% {
-        transform: translate(10px, 50px) scale(0.7) rotate(-25deg);
-        opacity: 0;
-    }
-    12% {
-        transform: translate(30px, 50px) scale(0.85) rotate(-20deg);
-        opacity: 0.4;
-    }
-    30%, 82% {
-        transform: translate(87px, 50px) scale(1) rotate(-12deg);
-        opacity: 1;
-    }
-    90% {
-        transform: translate(87px, 50px) scale(0.9) rotate(-12deg);
-        opacity: 0.3;
-    }
-    100% {
-        transform: translate(100px, 50px) scale(0.7) rotate(-12deg);
-        opacity: 0;
-    }
-}
-
-@keyframes brideRingMove {
-    0% {
-        transform: translate(190px, 50px) scale(0.7) rotate(25deg);
-        opacity: 0;
-    }
-    12% {
-        transform: translate(170px, 50px) scale(0.85) rotate(20deg);
-        opacity: 0.4;
-    }
-    30%, 82% {
-        transform: translate(113px, 50px) scale(1) rotate(12deg);
-        opacity: 1;
-    }
-    90% {
-        transform: translate(113px, 50px) scale(0.9) rotate(12deg);
-        opacity: 0.3;
-    }
-    100% {
-        transform: translate(100px, 50px) scale(0.7) rotate(12deg);
-        opacity: 0;
-    }
-}
-
-@keyframes ringGlowPulse {
-    0%, 26% {
-        transform: scale(0.5);
-        opacity: 0;
-    }
-    32% {
-        transform: scale(1.3);
-        opacity: 0.7;
-    }
-    45%, 78% {
-        transform: scale(1.6);
-        opacity: 0.3;
-    }
-    86%, 100% {
-        transform: scale(0.5);
-        opacity: 0;
-    }
-}
-
-@keyframes sparklesBurst {
-    0%, 28% {
-        transform: scale(0) rotate(0deg);
-        opacity: 0;
-    }
-    34% {
-        transform: scale(0.8) rotate(10deg);
-        opacity: 0.9;
-    }
-    42% {
-        transform: scale(1.2) rotate(20deg);
-        opacity: 1;
-    }
-    60%, 78% {
-        transform: scale(1.4) rotate(35deg);
-        opacity: 0;
-    }
-    100% {
-        transform: scale(0) rotate(0deg);
-        opacity: 0;
-    }
-}
-
-/* ==========================================================================
-   Responsive Media Queries
-   ========================================================================== */
-
-/* Tablet Screens (1024px and down) */
-@media (max-width: 1024px) {
-    .couple-cards-container {
-        gap: 2rem;
-    }
-    .venue-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-    .map-container {
-        height: 350px;
-    }
-}
-
-/* Mobile Screens (768px and down) */
-@media (max-width: 768px) {
-    section {
-        padding: 4rem 1.5rem;
-    }
-    
-    .glass-card {
-        padding: 2rem 1.5rem;
-    }
-    
-    .sacred-word {
-        font-size: 0.95rem;
-    }
-    
-    .title-traditional {
-        font-size: 2rem;
-    }
-    
-    .main-title {
-        font-size: 2.2rem;
-    }
-    
-    .text-cursive {
-        font-size: 2.2rem;
-    }
-    
-    .prayer-shloka {
-        font-size: 1.1rem;
-        line-height: 1.8;
-    }
-    
-    .couple-names-wrapper {
-        margin: 1.5rem 0;
-    }
-    
-    .couple-name {
-        font-size: 2.2rem;
-    }
-    
-    .ampersand {
-        font-size: 3rem;
-    }
-    
-    .couple-cards-container {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
-    }
-    
-    .couple-img-wrapper {
-        width: 200px;
-        height: 200px;
-    }
-    
-    .countdown-wrapper {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-    
-    .countdown-value {
-        font-size: 2rem;
-    }
-    
-    .timeline-container::before {
-        left: 20px;
-    }
-    
-    .timeline-event {
-        width: 100%;
-        padding-left: 3.5rem;
-        padding-right: 0;
-        justify-content: flex-start;
-        margin-bottom: 2.5rem;
-    }
-    
-    .timeline-event:nth-child(even) {
-        left: 0;
-        padding-left: 3.5rem;
-    }
-    
-    .timeline-event::before {
-        left: 11px !important;
-        right: auto !important;
-    }
-    
-    .muhurtham-time {
-        font-size: 1.5rem;
-    }
-    
-    .panchangam-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    
-    .form-group-row {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-    
-    .attendance-options {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-    
-    .contact-list {
-        grid-template-columns: 1fr;
-    }
-    
-    .music-player-widget {
-        bottom: 1.5rem;
-        right: 1.5rem;
-        padding: 0.5rem 0.5rem 0.5rem 1rem;
-    }
-    
-    .music-player-text {
-        font-size: 0.7rem;
-        margin-right: 0.75rem;
-    }
-
-    .ring-exchange-container {
-        width: 200px;
-        height: 100px;
-        margin: 0.5rem auto;
-    }
-}
+    color: var(--kum
