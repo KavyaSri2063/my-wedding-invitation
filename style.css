@@ -7,17 +7,17 @@
 
 /* --- Design Tokens / Root Variables --- */
 :root {
-    /* Color Palette */
-    --kumkum-red: #8D1C24;
-    --kumkum-red-dark: #581015;
-    --kumkum-red-light: #B22222;
-    --turmeric-yellow: #FDB813;
-    --turmeric-yellow-dark: #D49B0E;
-    --turmeric-yellow-light: #FFE082;
-    --mango-green: #1E5631;
-    --mango-green-light: #2D7F3E;
-    --temple-gold: #D4AF37;
-    --temple-gold-light: #F9E79F;
+    /* Color Palette — Lavender & Peach */
+    --kumkum-red: #7C5A9C;
+    --kumkum-red-dark: #4E3763;
+    --kumkum-red-light: #A484BF;
+    --turmeric-yellow: #F4A987;
+    --turmeric-yellow-dark: #E0895F;
+    --turmeric-yellow-light: #FFD9C0;
+    --mango-green: #9B7BA8;
+    --mango-green-light: #C4A8CF;
+    --temple-gold: #D9B48F;
+    --temple-gold-light: #F5E3D3;
     --ivory-white: #FCFBF7;
     --deep-charcoal: #1A1A1A;
     
@@ -50,14 +50,14 @@
 
 body {
     font-family: var(--font-body);
-    background-color: #0c0203; /* Very dark rich reddish-black */
+    background-color: #221726; /* Deep plum-black */
     color: var(--ivory-white);
     overflow-x: hidden;
     line-height: 1.6;
     background-image: 
-        radial-gradient(circle at 10% 20%, rgba(88, 16, 21, 0.3) 0%, transparent 50%),
-        radial-gradient(circle at 90% 80%, rgba(30, 86, 49, 0.15) 0%, transparent 50%),
-        url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0l40 40-40 40L0 40z' fill='%23d4af37' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+        radial-gradient(circle at 10% 20%, rgba(124, 90, 156, 0.25) 0%, transparent 50%),
+        radial-gradient(circle at 90% 80%, rgba(244, 169, 135, 0.15) 0%, transparent 50%),
+        url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M40 0l40 40-40 40L0 40z' fill='%23d9b48f' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
     background-attachment: fixed;
 }
 
@@ -66,7 +66,7 @@ body {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #0c0203;
+    background: #221726;
 }
 ::-webkit-scrollbar-thumb {
     background: var(--kumkum-red);
@@ -127,7 +127,7 @@ section {
 
 /* Glassmorphism Card Base */
 .glass-card {
-    background: rgba(88, 16, 21, 0.45); /* Kumkum Red translucent tint */
+    background: rgba(124, 90, 156, 0.3); /* Lavender translucent tint */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: var(--glass-border);
@@ -394,8 +394,8 @@ section {
 }
 
 .couple-name.groom {
-    color: #FFE082;
-    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+    color: #C77B4F;
+    text-shadow: 0 0 10px rgba(217, 180, 143, 0.3)
 }
 
 .couple-name .salutation {
