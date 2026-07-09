@@ -7,19 +7,18 @@
 
 /* --- Design Tokens / Root Variables --- */
 :root {
-    /* Color Palette — Lavender & Peach */
-    --kumkum-red: #7C5A9C;
-    --kumkum-red-dark: #4E3763;
-    --kumkum-red-light: #A484BF;
-    --turmeric-yellow: #F4A987;
-    --turmeric-yellow-dark: #E0895F;
-    --turmeric-yellow-light: #FFD9C0;
-    --mango-green: #9B7BA8;
-    --mango-green-light: #C4A8CF;
-    --temple-gold: #D9B48F;
-    --temple-gold-light: #F5E3D3;
-    --ivory-white: #4A3B5C;
-    --soft-cream: #FFF6F0;
+    /* Color Palette */
+    --kumkum-red: #8D1C24;
+    --kumkum-red-dark: #581015;
+    --kumkum-red-light: #B22222;
+    --turmeric-yellow: #FDB813;
+    --turmeric-yellow-dark: #D49B0E;
+    --turmeric-yellow-light: #FFE082;
+    --mango-green: #1E5631;
+    --mango-green-light: #2D7F3E;
+    --temple-gold: #D4AF37;
+    --temple-gold-light: #F9E79F;
+    --ivory-white: #FCFBF7;
     --deep-charcoal: #1A1A1A;
     
     /* Font Families */
