@@ -68,7 +68,6 @@ body {
 ::-webkit-scrollbar-track {
     background: #0c0203;
 }
-}
 ::-webkit-scrollbar-thumb {
     background: var(--kumkum-red);
     border-radius: 4px;
@@ -1254,70 +1253,6 @@ select.form-input {
     transform: translateY(0);
 }
 
-/* --- Ring Exchange Animation --- */
-.ring-exchange-container {
-    width: 260px;
-    height: 130px;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
-}
-
-.ring-exchange-svg {
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-}
-
-.ring-band {
-    transform-box: fill-box;
-    transform-origin: center;
-    opacity: 0;
-}
-
-.ring-band-left {
-    animation: groomRingMove 7s cubic-bezier(0.25, 1, 0.5, 1) infinite;
-}
-
-.ring-band-right {
-    animation: brideRingMove 7s cubic-bezier(0.25, 1, 0.5, 1) infinite;
-}
-
-.ring-glow-pulse {
-    transform-origin: 100px 50px;
-    animation: ringGlowPulse 7s ease-in-out infinite;
-}
-
-.sparkles-burst {
-    transform-origin: 100px 50px;
-    animation: sparklesBurst 7s ease-in-out infinite;
-}
-
-@keyframes groomRingMove {
-    0% {
-        transform: translate(10px, 50px) scale(0.7) rotate(-25deg);
-        opacity: 0;
-    }
-    12% {
-        transform: translate(30px, 50px) scale(0.85) rotate(-20deg);
-        opacity: 0.4;
-    }
-    30%, 82% {
-        transform: translate(87px, 50px) scale(1) rotate(-12deg);
-        opacity: 1;
-    }
-    90% {
-        transform: translate(87px, 50px) scale(0.9) rotate(-12deg);
-        opacity: 0.3;
-    }
-    100% {
-        transform: translate(100px, 50px) scale(0.7) rotate(-12deg);
-        opacity: 0;
-    }
-}
 
 @keyframes brideRingMove {
     0% {
