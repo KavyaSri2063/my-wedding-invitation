@@ -128,7 +128,6 @@ section {
 /* Glassmorphism Card Base */
 .glass-card {
     background: rgba(139, 107, 168, 0.45); /* Lavender translucent tint */
-    ...
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: var(--glass-border);
@@ -459,7 +458,6 @@ section {
 .countdown-box {
     background: rgba(27, 18, 37, 0.5);
     border: 1px solid rgba(212, 175, 55, 0.3);
-    ...
     border-radius: var(--border-radius);
     padding: 1.5rem;
     text-align: center;
@@ -665,8 +663,7 @@ section {
 }
 
 .timeline-event-card {
-    background: rgba(88, 16, 21, 0.35);
-    border: 1px solid rgba(212, 175, 55, 0.2);
+    background: rgba(139, 107, 168, 0.35);
     border-radius: var(--border-radius);
     padding: 2rem;
     width: 100%;
