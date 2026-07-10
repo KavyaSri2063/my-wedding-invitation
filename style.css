@@ -698,7 +698,7 @@ section {
 
 .timeline-desc {
     font-size: 0.85rem;
-    color: #dfcfbc;
+    color: #E3D5E8;
     line-height: 1.6;
 }
 
@@ -1125,7 +1125,7 @@ select.form-input {
     z-index: 100;
     display: flex;
     align-items: center;
-    background: rgba(12, 2, 3, 0.85);
+    background: rgba(27, 18, 37, 0.85);
     border: 1px solid rgba(212, 175, 55, 0.4);
     padding: 0.6rem 0.6rem 0.6rem 1.2rem;
     border-radius: 40px;
