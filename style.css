@@ -199,7 +199,7 @@ section {
 .toran-svg {
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 0 10px rgba(244, 162, 97, 0.3));
 }
 
 /* --- Marigold Falling Petals Canvas --- */
