@@ -459,6 +459,7 @@ section {
 .countdown-box {
     background: rgba(27, 18, 37, 0.5);
     border: 1px solid rgba(212, 175, 55, 0.3);
+    ...
     border-radius: var(--border-radius);
     padding: 1.5rem;
     text-align: center;
