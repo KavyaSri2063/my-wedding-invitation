@@ -350,7 +350,7 @@ section {
     max-width: 900px;
     margin: 0 auto;
     border: 2px solid rgba(212, 175, 55, 0.4);
-    box-shadow: var(--soft-shadow), 0 0 30px rgba(88, 16, 21, 0.4);
+    box-shadow: var(--soft-shadow), 0 0 30px rgba(139, 107, 168, 0.4);
 }
 
 .invitation-badge {
