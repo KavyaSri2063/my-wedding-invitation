@@ -353,7 +353,7 @@ section {
 }
 
 .invitation-badge {
-    background: rgba(253, 184, 19, 0.15);
+    background: rgba(244, 162, 97, 0.15);
     border: 1px solid var(--temple-gold);
     padding: 0.5rem 1.5rem;
     border-radius: 20px;
@@ -603,7 +603,7 @@ section {
    5. Event Timeline & Muhurtham
    ========================================================================== */
 #timeline-section {
-    background-color: rgba(12, 2, 3, 0.4);
+    background-color: rgba(27, 18, 37, 0.4);
 }
 
 .timeline-container {
@@ -650,7 +650,7 @@ section {
     height: 16px;
     border-radius: 50%;
     background: var(--turmeric-yellow);
-    border: 3px solid #0c0203;
+    border: 3px solid #1B1225;
     right: -8px;
     top: 25px;
     z-index: 5;
@@ -664,6 +664,7 @@ section {
 
 .timeline-event-card {
     background: rgba(139, 107, 168, 0.35);
+    border: 1px solid rgba(212, 175, 55, 0.2);
     border-radius: var(--border-radius);
     padding: 2rem;
     width: 100%;
