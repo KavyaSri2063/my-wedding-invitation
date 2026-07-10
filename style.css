@@ -259,7 +259,7 @@ section {
 .prayer-translation {
     font-family: var(--font-body);
     font-size: 0.95rem;
-    color: #dfcfbc;
+    color: #E3D5E8;
     max-width: 600px;
     margin: 1rem auto;
     line-height: 1.8;
@@ -341,7 +341,7 @@ section {
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #dfcfbc;
+    color: #E3D5E8;
     font-weight: 500;
 }
 
@@ -486,7 +486,7 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #dfcfbc;
+    color: #E3D5E8;
 }
 
 /* ==========================================================================
@@ -586,13 +586,13 @@ section {
 
 .family-relation {
     font-size: 0.8rem;
-    color: #dfcfbc;
+    color: #E3D5E8;
     font-style: italic;
 }
 
 .couple-bio {
     font-size: 0.9rem;
-    color: #dfcfbc;
+    color: #E3D5E8;
     text-align: center;
     line-height: 1.7;
     margin-top: 1rem;
@@ -760,7 +760,7 @@ section {
 
 .panchangam-label {
     font-size: 0.75rem;
-    color: #dfcfbc;
+    color: #E3D5E8;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 0.25rem;
@@ -886,7 +886,7 @@ section {
 
 .travel-label {
     font-size: 0.75rem;
-    color: #dfcfbc;
+    color: #E3D5E8;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -1046,7 +1046,7 @@ select.form-input {
     text-align: center;
     font-weight: 600;
     font-size: 0.95rem;
-    color: #dfcfbc;
+    color: #E3D5E8;
     transition: all 0.3s ease;
     text-transform: uppercase;
     letter-spacing: 1px;
