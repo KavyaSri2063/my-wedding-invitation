@@ -985,7 +985,7 @@ section {
 }
 
 .form-input {
-    background: rgba(12, 2, 3, 0.6);
+   background: rgba(27, 18, 37, 0.6);
     border: 1px solid rgba(212, 175, 55, 0.3);
     border-radius: 8px;
     padding: 1rem;
@@ -999,7 +999,7 @@ section {
 .form-input:focus {
     border-color: var(--temple-gold);
     box-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
-    background: rgba(12, 2, 3, 0.85);
+   background: rgba(27, 18, 37, 0.85);
 }
 
 textarea.form-input {
@@ -1038,7 +1038,7 @@ select.form-input {
 }
 
 .attendance-option-card {
-    background: rgba(12, 2, 3, 0.4);
+    background: rgba(27, 18, 37, 0.4);
     border: 1px solid rgba(212, 175, 55, 0.25);
     border-radius: 8px;
     padding: 1rem;
