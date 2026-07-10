@@ -1,5 +1,6 @@
 /* ==========================================================================
-   CSS Styles for Traditional Telugu Engagement Invitation
+   CSS Styles for Traditional
+Telugu Engagement Invitation
    ========================================================================== */
 
 /* --- Google Fonts Import --- */
@@ -8,7 +9,7 @@
 /* --- Design Tokens / Root Variables --- */
 :root {
     /* Color Palette */
-    --kumkum-red: #8B6BA8;
+    --kumkum-red: #8B6BA8;background: rgba(244, 194, 194, 0.3);
     --kumkum-red-dark: #4A3A63;
     --kumkum-red-light: #B497D6;
     --turmeric-yellow: #F4A261;
@@ -226,7 +227,7 @@ section {
    1. Welcome Section & Ganesha Intro
    ========================================================================== */
 #welcome-section {
-    background-color: rgba(255, 243, 236, 0.5);
+    background-color: rgba(27, 18, 37, 0.65);
     text-align: center;
 }
 
