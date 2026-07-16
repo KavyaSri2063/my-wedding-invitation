@@ -138,6 +138,7 @@ section {
     transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
     position: relative;
     overflow: hidden;
+    animation: goldPulse 3s ease-in-out infinite;
 }
 
 .glass-card:hover {
@@ -377,6 +378,13 @@ section {
 .main-title {
     font-size: 3.5rem;
     margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #B8860B 0%, #FFE082 20%, #B8860B 40%, #B8860B 60%, #FFE082 80%, #B8860B 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: shimmerSweep 4s linear infinite;
 }
 
 .couple-names-wrapper {
@@ -1242,6 +1250,15 @@ select.form-input {
 /* ==========================================================================
    Keyframes and Animations
    ========================================================================== */
+@keyframes shimmerSweep {
+    to { background-position: -200% center; }
+}
+
+@keyframes goldPulse {
+    0%, 100% { box-shadow: var(--soft-shadow), 0 0 12px rgba(184, 134, 11, 0.25); }
+    50% { box-shadow: var(--soft-shadow), 0 0 22px rgba(184, 134, 11, 0.5); }
+}
+
 @keyframes rotateSlow {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
