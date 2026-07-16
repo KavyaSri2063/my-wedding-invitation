@@ -569,7 +569,7 @@ section {
 .couple-card-name {
     font-family: var(--font-heading);
     font-size: 2.2rem;
-    color: var(--ivory-white);
+    color: #5C3A73;
     margin-bottom: 1rem;
     text-align: center;
     letter-spacing: 1px;
