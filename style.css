@@ -502,7 +502,7 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #E3D5E8;
+    color: #C97B93;
 }
 
 /* ==========================================================================
@@ -585,7 +585,7 @@ section {
 
 .family-title {
     font-family: var(--font-subheading);
-    color: var(--temple-gold);
+    color: var(--turmeric-yellow);
     font-weight: 600;
     font-size: 1rem;
     text-transform: uppercase;
@@ -595,7 +595,7 @@ section {
 
 .family-name {
     font-size: 0.95rem;
-    color: var(--ivory-white);
+    color: #C97B93;
     margin-bottom: 0.4rem;
     font-weight: 500;
 }
@@ -916,7 +916,7 @@ section {
 
 .travel-label {
     font-size: 0.75rem;
-    color: #E3D5E8;
+    color: #C97B93;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -924,7 +924,7 @@ section {
 
 .travel-value {
     font-size: 0.95rem;
-    color: var(--ivory-white);
+    color: #5C1836;
     font-weight: 500;
     margin-top: 2px;
 }
