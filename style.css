@@ -185,6 +185,24 @@ section {
     width: 55px;
     height: 55px;
 }
+/* --- Corner Floral Flourish --- */
+.corner-flourish {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.55;
+}
+
+.corner-flourish.corner-tl { top: 12px; left: 12px; }
+.corner-flourish.corner-tr { top: 12px; right: 12px; transform: scaleX(-1); }
+.corner-flourish.corner-bl { bottom: 12px; left: 12px; transform: scaleY(-1); }
+.corner-flourish.corner-br { bottom: 12px; right: 12px; transform: scale(-1, -1); }
+
+@media (max-width: 768px) {
+    .corner-flourish { width: 55px; height: 55px; }
+}
 
 /* --- Mango Leaves Garland (Toran) --- */
 .toran-container {
