@@ -452,14 +452,14 @@ section {
 .event-brief {
     font-family: var(--font-subheading);
     font-size: 1.5rem;
-    color: var(--temple-gold);
+    color: var(--turmeric-yellow);
     margin-bottom: 1rem;
     letter-spacing: 1px;
 }
 
 .event-brief-date {
     font-family: var(--font-heading);
-    color: var(--temple-gold);
+    color: var(--turmeric-yellow);
     font-size: 1.8rem;
     letter-spacing: 1px;
     display: block;
@@ -482,7 +482,7 @@ section {
 
 .event-time-text{
     font-family:var(--font-heading);
-    color:#C89A2B;
+    color: var(--turmeric-yellow);;
     font-size:1.5rem;
     letter-spacing:2px;
 }
