@@ -193,100 +193,56 @@
 
                 <p class="event-brief">Subhamuhurtham on</p>
 
-                <!-- Divider 2 : Luxury Hanging Floral Divider -->
+                <!-- Divider 2 : Lotus Divider -->
 <svg class="ornament-divider"
      viewBox="0 0 600 90"
      xmlns="http://www.w3.org/2000/svg">
 
-    <!-- Horizontal Lines -->
-    <line x1="20" y1="22"
-          x2="250" y2="22"
-          stroke="#C89A2B"
+    <!-- Left Line -->
+    <line x1="20" y1="45"
+          x2="235" y2="45"
+          stroke="var(--temple-gold)"
           stroke-width="2"
           stroke-linecap="round"/>
 
-    <line x1="350" y1="22"
-          x2="580" y2="22"
-          stroke="#C89A2B"
+    <!-- Right Line -->
+    <line x1="365" y1="45"
+          x2="580" y2="45"
+          stroke="var(--temple-gold)"
           stroke-width="2"
           stroke-linecap="round"/>
 
-    <!-- Center Jewel -->
-    <circle cx="300"
-            cy="22"
-            r="3"
-            fill="#C89A2B"/>
+    <!-- Lotus -->
+    <g transform="translate(245,-2) scale(0.22)"
+       fill="none"
+       stroke="var(--temple-gold)"
+       stroke-width="12"
+       stroke-linecap="round"
+       stroke-linejoin="round">
 
-    <!-- Hanging Stem -->
-    <path d="
-        M300 25
-        C300 32
-        300 38
-        300 44"
-        fill="none"
-        stroke="#C89A2B"
-        stroke-width="2"/>
+        <!-- Horizontal Base Petals -->
+        <path d="M250,295 C200,295 100,340 70,320 C65,300 130,240 250,295 Z"/>
+        <path d="M250,295 C300,295 400,340 430,320 C435,300 370,240 250,295 Z"/>
 
-    <!-- Left Petal -->
-    <path d="
-        M300 44
-        C288 42
-        280 52
-        286 63
+        <!-- Center Main Petal -->
+        <path d="M250,110 C190,180 180,265 250,300 C320,265 310,180 250,110 Z"/>
 
-        C291 72
-        300 68
-        300 58 Z"
-        fill="#C89A2B"/>
+        <!-- Inner Petals -->
+        <path d="M197,185 C130,210 120,270 210,297"/>
+        <path d="M303,185 C370,210 380,270 290,297"/>
 
-    <!-- Right Petal -->
-    <path d="
-        M300 44
-        C312 42
-        320 52
-        314 63
+        <!-- Outer Petals -->
+        <path d="M130,225 C60,230 50,280 150,296"/>
+        <path d="M370,225 C440,230 450,280 350,296"/>
 
-        C309 72
-        300 68
-        300 58 Z"
-        fill="#C89A2B"/>
+        <!-- Background Petals -->
+        <path d="M218,172 C190,140 160,110 170,110 L220,135"/>
+        <path d="M282,172 C310,140 340,110 330,110 L280,135"/>
 
-    <!-- Middle Petal -->
-    <path d="
-        M300 44
+        <path d="M143,212 C120,180 90,160 105,160 L140,182"/>
+        <path d="M357,212 C380,180 410,160 395,160 L360,182"/>
 
-        C294 56
-        295 72
-        300 78
-
-        C305 72
-        306 56
-        300 44 Z"
-        fill="#C89A2B"/>
-
-    <!-- Left Curl -->
-    <path d="
-        M292 44
-
-        C284 40
-        276 36
-        272 28"
-        fill="none"
-        stroke="#C89A2B"
-        stroke-width="1.7"
-        stroke-linecap="round"/>
-
-    <!-- Right Curl -->
-    <path d="
-        M308 44
-
-        C316 40
-        324 36
-        328 28"
-        fill="none"
-        stroke="#C89A2B"
-        stroke-width="1.7"
-        stroke-linecap="round"/>
+    </g>
 
 </svg>
 
