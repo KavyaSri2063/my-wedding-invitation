@@ -394,7 +394,12 @@ section {
 .main-title {
     font-size: 3.5rem;
     margin-bottom: 0.5rem;
-    color: var(--temple-gold);
+    background: linear-gradient(90deg, #8B6508 0%, #FFE082 50%, #8B6508 100%);
+    background-size: 100% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .couple-names-wrapper {
