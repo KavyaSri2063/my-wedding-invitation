@@ -366,7 +366,7 @@ section {
     font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #E3D5E8;
+    color: #E8C468;
     font-weight: 500;
 }
 
@@ -523,7 +523,7 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #C97B93;
+    color: #B8860B;
 }
 
 /* ==========================================================================
@@ -616,20 +616,20 @@ section {
 
 .family-name {
     font-size: 0.95rem;
-    color: #C97B93;
+    color: #B8860B;
     margin-bottom: 0.4rem;
     font-weight: 500;
 }
 
 .family-relation {
     font-size: 0.8rem;
-    color: #E3D5E8;
+    color: #E8C468;
     font-style: italic;
 }
 
 .couple-bio {
     font-size: 0.9rem;
-    color: #E3D5E8;
+    color: #E8C468;
     text-align: center;
     line-height: 1.7;
     margin-top: 1rem;
@@ -937,7 +937,7 @@ section {
 
 .travel-label {
     font-size: 0.75rem;
-    color: #C97B93;
+    color: #B8860B;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
