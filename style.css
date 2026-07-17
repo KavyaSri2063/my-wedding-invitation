@@ -261,7 +261,7 @@ section {
 }
 
 .ganesha-svg, .ganesha-img {
-    width: 180px;
+    width: 280px;
     height: auto;
     filter: drop-shadow(0 0 10px rgba(254, 184, 19, 0.3));
     border-radius: 12px;
