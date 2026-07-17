@@ -394,8 +394,12 @@ section {
 .main-title {
     font-size: 3.5rem;
     margin-bottom: 0.5rem;
-    color: #D4AF37;
-    text-shadow: 0 0 12px rgba(255, 224, 130, 0.6);
+    background: linear-gradient(180deg, #FFF3C4 0%, #E8C468 35%, #B8860B 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-shadow: 0 0 12px rgba(255, 224, 130, 0.5);
 }
 
 .couple-names-wrapper {
