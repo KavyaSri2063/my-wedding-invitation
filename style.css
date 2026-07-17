@@ -261,7 +261,7 @@ section {
 }
 
 .ganesha-svg, .ganesha-img {
-    width: 280px;
+    width: 180px;
     height: auto;
     filter: drop-shadow(0 0 10px rgba(254, 184, 19, 0.3));
     border-radius: 12px;
@@ -389,6 +389,18 @@ section {
     font-size: 0.85rem;
     margin-bottom: 2rem;
     text-transform: uppercase;
+}
+
+.main-title {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #B8860B 0%, #FFE082 20%, #B8860B 40%, #B8860B 60%, #FFE082 80%, #B8860B 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: shimmerSweep 4s linear infinite;
 }
 
 .couple-names-wrapper {
