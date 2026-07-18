@@ -11,18 +11,18 @@ Telugu Engagement Invitation
 
 /* Color Palette */
 
---kumkum-red: #E6E0F0;
---kumkum-red-dark: #4A3A63;
+:root {
+
+--kumkum-red: #E8DDF5;
+--kumkum-red-dark: #5C3A73;
 --kumkum-red-light: #B497D6;
---turmeric-yellow: #7A2048;
---turmeric-yellow-dark: #5C1836;
---turmeric-yellow-light: #C97B93;
---mango-green: #7C9473;
---mango-green-light: #9AB58E;
---temple-gold: #B8860B;
---temple-gold-light: #E8C468;
---ivory-white: #FCFBF7;
---deep-charcoal: #1A1A1A;
+--turmeric-yellow: #8B6BA8;
+--turmeric-yellow-dark: #6B4C8C;
+--turmeric-yellow-light: #C8A8E9;
+--mango-green: #8DAA91;
+--temple-gold: #D4AF37;
+--temple-gold-light: #F2D675;
+--ivory-white: #FFFBF6;
 }
     
     /* Font Families */
