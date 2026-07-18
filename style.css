@@ -8,19 +8,21 @@ Telugu Engagement Invitation
 
 /* --- Design Tokens / Root Variables --- */
 :root {
-  /* Color Palette */
-  --pale-gray-blue: #E6E0F0;
-  --dark-slate-blue: #4A3A63;
-  --muted-lavender: #B497D6;
-  --dark-burgundy: #7A2048;
-  --deep-wine-plum: #5C1836;
-  --muted-dusty-rose: #C97B93;
-  --muted-sage-green: #7C9473;
-  --pale-olive-green: #9AB58E;
-  --temple-gold: #B8860B;
-  --temple-gold-light: #E8C468;
-  --ivory-white: #FCFBF7;
-  --deep-charcoal: #1A1A1A;
+
+/* Color Palette */
+
+--kumkum-red: #E6E0F0;
+--kumkum-red-dark: #4A3A63;
+--kumkum-red-light: #B497D6;
+--turmeric-yellow: #7A2048;
+--turmeric-yellow-dark: #5C1836;
+--turmeric-yellow-light: #C97B93;
+--mango-green: #7C9473;
+--mango-green-light: #9AB58E;
+--temple-gold: #B8860B;
+--temple-gold-light: #E8C468;
+--ivory-white: #FCFBF7;
+--deep-charcoal: #1A1A1A;
 }
     
     /* Font Families */
