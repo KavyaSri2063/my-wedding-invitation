@@ -387,8 +387,8 @@ section {
     border: 1px solid rgba(201,168,92,.55);
 
     box-shadow:
-        0 15px 40px rgba(0,0,0,.08),
-        0 0 35px rgba(201,168,92,.18);
+        0 10px 28px rgba(124,104,171,.08),
+        0 0 18px rgba(216,191,122,.12);
 
     transition: .4s ease;
 }
@@ -416,9 +416,9 @@ section {
 
 .main-title{
 
-font-size:4.4rem;
-letter-spacing:6px;
-margin-bottom:.8rem;
+font-size:4rem;
+letter-spacing:5px;
+margin-bottom:1rem;
 
 }
 
@@ -439,8 +439,9 @@ display:flex;
 flex-direction:column;
 align-items:center;
 justify-content:center;
-gap:1rem;
-margin:3rem 0;
+gap:1.2rem;
+margin:3rem 0 4rem;
+
 }
 
 .couple-name{
@@ -453,7 +454,7 @@ background:none;
 -webkit-background-clip:unset;
 -webkit-text-fill-color:unset;
 letter-spacing:0;
-line-height:1;
+line-height:1.15;
 text-shadow:none;
 
 }
