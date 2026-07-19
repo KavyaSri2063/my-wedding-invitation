@@ -1623,29 +1623,27 @@ select.form-input {
 /* ===== Footer ===== */
 
 .site-footer{
-    padding:40px 20px;
     text-align:center;
-    background:transparent;
+    padding:35px 20px 45px;
 }
 
-.footer-love .heart{
-    display:block;
-    font-size:22px;
-    color:var(--gold-accent);
+.footer-love{
+    font-family:'Playfair Display', serif;
+    font-size:1.1rem;
+    font-weight:700;
+    color:var(--plum-deep);   /* Deep plum */
     margin-bottom:8px;
 }
 
-.footer-love-text{
-    font-family:'Great Vibes', cursive;
-    font-size:2rem;
-    color:var(--plum-deep);
-    margin-bottom:6px;
+.heart{
+    color:#D32F2F;            /* Red heart */
+    font-size:1.2rem;
 }
 
 .footer-hashtag{
-    font-family:'Playfair Display', serif;
-    font-size:1rem;
-    font-weight:600;
-    color:var(--sage-green-dark);
-    letter-spacing:2px;
+    font-family:'Great Vibes', cursive;
+    font-size:2rem;
+    font-weight:700;
+    color:var(--gold-accent); /* Gold */
+    margin:0;
 }
