@@ -1627,6 +1627,12 @@ select.form-input {
     padding:35px 20px 45px;
 }
 
+@media (max-width: 768px){
+    .site-footer{
+        padding-bottom:120px;
+    }
+}
+
 .footer-love{
     font-family:'Playfair Display', serif;
     font-size:1.1rem;
