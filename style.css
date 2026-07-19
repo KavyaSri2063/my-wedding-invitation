@@ -418,45 +418,48 @@ section {
 }
 
 .main-title{
+
     font-size:4rem;
-    letter-spacing:4px;
+
+    letter-spacing:5px;
+
     margin-bottom:1rem;
 
     background:linear-gradient(
-        180deg,
-        #FFF6C9,
-        #D4AF37,
-        #8B6914);
+    180deg,
+    #FFF8D6 0%,
+    #D4AF37 45%,
+    #A87800 100%);
 
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 
     text-shadow:none;
 }
-
 .couple-names-wrapper{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    gap:1rem;
-    margin:3rem 0;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+gap:1rem;
+margin:3rem 0;
 }
 
 .couple-name{
-    font-family: var(--font-heading);
-    font-size:3.5rem;
+
+    font-family:var(--font-heading);
+    font-size:3.6rem;
     font-weight:700;
     background:linear-gradient(
         180deg,
-        #F7E7A1 0%,
-        #D4AF37 40%,
-        #A97C00 100%);
+        #F9E9A7,
+        #D4AF37,
+        #8B6508);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
     letter-spacing:2px;
-    text-shadow:none;
-    transition:.4s;
+    line-height:1.2;
 }
 
 .couple-name:hover{
@@ -485,12 +488,11 @@ section {
 }
 
 .ampersand{
-    font-family:var(--font-accent);
+
     font-size:5rem;
-    color:#D4AF37;
+    color:#C9A85C;
     text-shadow:
-        0 0 10px rgba(212,175,55,.4),
-        0 0 20px rgba(212,175,55,.25);
+    0 0 12px rgba(212,175,55,.4);
     margin:.5rem 0;
 }
 
