@@ -376,24 +376,31 @@ section {
 }
 
 .invitation-card {
-    max-width: 960px;
+    max-width: 950px;
     margin: 0 auto;
-    border: 2px solid rgba(201, 168, 92, 0.55);
-    border-radius: 28px;
     padding: 4rem;
-    background: rgba(255,255,255,0.82);
-    backdrop-filter: blur(14px);
+    border-radius: 28px;
+
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.85),
+            rgba(255,253,249,0.92)
+        );
+
+    border: 1px solid rgba(201,168,92,.55);
+
     box-shadow:
-        0 20px 45px rgba(0,0,0,0.08),
-        0 0 40px rgba(201,168,92,.18);
-    transition: all .4s ease;
+        0 15px 40px rgba(0,0,0,.08),
+        0 0 35px rgba(201,168,92,.18);
+
+    transition: .4s ease;
 }
 
 .invitation-card:hover{
-    transform: translateY(-6px);
+    transform: translateY(-5px);
     box-shadow:
-        0 25px 55px rgba(0,0,0,.10),
-        0 0 45px rgba(201,168,92,.28);
+        0 20px 45px rgba(0,0,0,.10),
+        0 0 45px rgba(201,168,92,.25);
 }
 
 .invitation-badge {
