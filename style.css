@@ -1620,3 +1620,32 @@ select.form-input {
         margin: 0.5rem auto;
     }
 }
+/* ===== Footer ===== */
+
+.site-footer{
+    padding:40px 20px;
+    text-align:center;
+    background:transparent;
+}
+
+.footer-love .heart{
+    display:block;
+    font-size:22px;
+    color:var(--gold-accent);
+    margin-bottom:8px;
+}
+
+.footer-love-text{
+    font-family:'Great Vibes', cursive;
+    font-size:2rem;
+    color:var(--plum-deep);
+    margin-bottom:6px;
+}
+
+.footer-hashtag{
+    font-family:'Playfair Display', serif;
+    font-size:1rem;
+    font-weight:600;
+    color:var(--sage-green-dark);
+    letter-spacing:2px;
+}
