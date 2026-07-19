@@ -421,13 +421,13 @@ section {
 }
 
 .couple-name.bride {
-    color: var(--mauve-light);
-    text-shadow: 0 0 10px rgba(195, 166, 222, 0.3);
+    color: var(--plum-deep);
+    text-shadow: 0 2px 6px rgba(92, 58, 115, 0.2);
 }
 
 .couple-name.groom {
     color: var(--plum-deep);
-    text-shadow: 0 0 10px rgba(92, 58, 115, 0.2)
+    text-shadow: 0 2px 6px rgba(92, 58, 115, 0.2);
 }
 
 .couple-name .salutation {
