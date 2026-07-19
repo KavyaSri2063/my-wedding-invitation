@@ -254,6 +254,8 @@ section {
 #welcome-section {
     background-color: rgba(243, 236, 250, 0.4);
     text-align: center;
+    min-height: auto;
+    padding-bottom: 2rem;
 }
 
 .ganesha-wrapper {
@@ -324,6 +326,8 @@ section {
 #hero-section {
     background-color: rgba(243, 236, 250, 0.25);
     text-align: center;
+    min-height: auto;
+    padding-top: 2rem;
 }
 
 .sacred-headers {
