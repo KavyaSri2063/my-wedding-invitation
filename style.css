@@ -505,7 +505,7 @@ text-shadow:none;
     color: var(--gold-accent);
     margin-right: 0.7rem;
     position: relative;
-    left: -12px;
+    left: -20px;
     vertical-align: middle;
 }
 
@@ -552,15 +552,12 @@ margin:.8rem 0;
 }
 
 .event-time-text{
-
-font-family:var(--font-subheading);
-font-size:2rem;
-font-style:italic;
-font-weight:600;
-color:#62449C;
-letter-spacing:1px;
-margin-top:12px;
-
+    font-family:var(--font-subheading);
+    font-size:2rem;
+    font-style:normal;
+    font-weight:600;
+    color:#62449C;
+    letter-spacing:1px;
 }
 
 /* ==========================================================================
