@@ -118,7 +118,7 @@ h1, h2, h3, h4 {
 section {
     position: relative;
     padding: 6rem 2rem;
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,7 +136,7 @@ section {
 .glass-card {
     background:#FFFFFF;
     backdrop-filter:none;
-    -webkit-backdrop-filter: blur(12px);
+    webkit-backdrop-filter: blur(12px);
     border:1px solid #EFE8F8;
     border-radius: var(--border-radius);
     box-shadow:
@@ -638,7 +638,7 @@ margin-top:12px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 2rem;
-    bborder: 6px solid var(--gold-accent);
+    border: 6px solid var(--gold-accent);
     box-shadow: var(--soft-shadow), 0 0 20px rgba(201, 168, 92, 0.3);
     background-color: var(--lilac-pale);
 }
