@@ -551,12 +551,11 @@ margin:.8rem 0;
 }
 
 .event-time-text{
-    font-family:var(--font-subheading);
-    font-size:2rem;
-    font-style:normal;
-    font-weight:600;
-    color:#62449C;
-    letter-spacing:1px;
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    color: #62449C;
+    letter-spacing: 1px;
 }
 
 /* ==========================================================================
